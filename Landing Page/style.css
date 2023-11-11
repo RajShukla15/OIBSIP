@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg 17% 70%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+}
+#part2{
+    height: 100%;
+    width: 64%;
+    background-color: blue;
+    background-image: url("https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9kZWx8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 50%, 99%, 0.169)
+}
+#part3{
+    height: 100%;
+    width: 10%;
+    /*background-color: hotpink;*/
+}
+#text-div{
+    height: 300px;
+    position: absolute;
+    min-width: 400px;
+    left: 8%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 80px;
+    letter-spacing: 5px;
+    line-height: 75px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+#small-img{
+    height: 350px;
+    width: 280px;
+    background-image: url("https://images.unsplash.com/photo-1622396636133-ba43f812bc35?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1vZGVsJTIwZmFjZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translate(0,-50%);
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 2%, 65%, 0.169)
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -17%;
+    top: 46%;
+}
+#vertical-text>h1{
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    width: 450px;
+    display: flex;
+    left: 7%;
+    top: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 50px;
+}
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+}

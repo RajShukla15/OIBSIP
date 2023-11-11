@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(154, 38, 209);
+  background: linear-gradient(90deg, #020d45 0%, #5936b4 100%);
+  color: #6f2d79;
+  font-size: 1rem;
+}
+.converter {
+  background: #ffff;
+  width: 100%;
+  min-width: 300px;
+  padding: 20px 25px 40px;
+  border-radius: 6px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: -5px -5px 250px 0 rgb(154, 38, 209) inset;
+  backdrop-filter: blur(21px);
+}
+.heading {
+  color: #6f2d79;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.result {
+  text-align: center;
+  margin: 20px 0px;
+}
+.result-s {
+  color: #353232;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.value {
+  border-bottom: 2px solid rgba(19, 19, 19, 0.699);
+  padding: 17px;
+  transform: 1sec ease;
+}
+.degree-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.degreefield {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+label {
+  color: #353232;
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+input,
+select {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #c1b8b8;
+  padding: 8px;
+  margin-bottom: 12px;
+  color: #000;
+}
+input:focus {
+  border: 1px solid #4643e0ee;
+}
+#btn {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background: linear-gradient(to bottom, #020d45, #5936b4);
+  color: #ffffff;
+  padding: 12px 70px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  transition: all 0.5sec ease-in;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#btn:hover {
+  color: #5936b4;
+}
